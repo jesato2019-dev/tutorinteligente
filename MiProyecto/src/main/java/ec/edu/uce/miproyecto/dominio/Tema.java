@@ -18,7 +18,6 @@ public class Tema {
         this.ejercicios = new Ejercicio[5];
     }
 
-    // Constructor con parámetros (Ya no recibe 'int idTema' desde afuera)
     public Tema(String nombre, String descripcion, Concepto[] conceptos, Ejercicio[] ejercicios) {
         this.idTema = idTemaContador++; // Asigna el ID automáticamente de forma secuencial
         this.nombre = nombre;
